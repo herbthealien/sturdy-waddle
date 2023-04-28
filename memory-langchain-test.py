@@ -37,6 +37,6 @@ for x in range(num):
     print("What would you like to do?")
     print(convo.run(input()))
 
-print(convo.run("Sum up how the game ends by describing what consequences the actions I took had on my immediate surroundings, as well as what affects my choices had on the larger fantasy world that the game is contained within, in a paragraph worthy of a fantasy textbook."))
+print(convo.run("Sum up how the game ends by describing the consequences of my actions. Mention what the elder spirits that are always watching over me thought of my choices."))
 
-print(convo.run("Wrap up the game's ending with a thoughtful moral imparted in the style of a short limerick."))
+print(convo.run("Write a short limerick that summarizes the events of the game and end it with a moral lesson."))
